@@ -1,0 +1,65 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+const root = createRoot(
+  document.querySelector('#root')
+);
+
+function Button({ color, borderColor, children }) {
+    return(
+      <button
+        style={{
+          border: '2px solid',
+          color,
+          borderColor,
+          background: 'white',
+          borderRadius: 4,
+          padding: 16,
+          margin: 8,
+        }}
+      >
+        {children}
+      </button>
+    );
+}
+
+root.render(
+  <div>
+    <Button 
+      color="red" 
+      borderColor="red" 
+      children="Cancel"
+    />
+    {/* <button
+      style={{
+        border: '2px solid',
+        color: 'red',
+        borderColor: 'red',
+        background: 'white',
+        borderRadius: 4,
+        padding: 16,
+        margin: 8,
+      }}
+    >
+      Cancel
+    </button> */}
+    <Button 
+      color="black" 
+      borderColor="black" 
+      children="Confirm"
+    />
+    {/* <button
+      style={{
+        border: '2px solid',
+        color: 'black',
+        borderColor: 'black',
+        background: 'white',
+        borderRadius: 4,
+        padding: 16,
+        margin: 8,
+      }}
+    >
+      Confirm
+    </button> */}
+  </div>
+);
