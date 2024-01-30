@@ -1,0 +1,23 @@
+import React from 'react';
+
+import VisuallyHidden from './VisuallyHidden';
+
+function handleClick() {
+  window.alert('Congrats!');
+}
+
+function ClickBallGame() {
+  return (
+    <div className="wrapper">
+      <button
+        className="ball"
+        onClick={() => window.alert('Congrats!')}
+        /* onClick={handleClick} */
+      >
+        <VisuallyHidden>Ball</VisuallyHidden>
+      </button>
+    </div>
+  );
+}
+
+export default ClickBallGame;
