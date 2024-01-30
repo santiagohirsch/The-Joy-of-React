@@ -1,0 +1,14 @@
+function App() {
+    const shoppingList = ['avocado', 'banana', 'cinnamon'];
+    const numOfItems = shoppingList.length;
+  
+    return (
+      <div>
+        {numOfItems > 0 && (
+          <ShoppingList items={shoppingList} />
+        )}
+      </div>
+    );
+  }
+
+  export default App;

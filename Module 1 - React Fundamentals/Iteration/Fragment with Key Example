@@ -1,0 +1,23 @@
+// 🚫 Missing key:
+function Thing({ data }) {
+  return (
+    data.map(item => (
+      <>
+        <p>{item.content}</p>
+        <button>Cancel</button>
+      </>
+    ))
+  );
+}
+
+// ✅ Fixed!
+function Thing({ data }) {
+  return (
+    data.map(item => (
+      <React.Fragment key={item.id}>
+        <p>{item.content}</p>
+        <button>Cancel</button>
+      </React.Fragment>
+    ))
+  );
+}
