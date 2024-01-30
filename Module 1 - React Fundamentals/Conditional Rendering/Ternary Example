@@ -1,0 +1,11 @@
+function App({ user }) {
+  const isLoggedIn = !!user;
+
+  return (
+    <>
+      {isLoggedIn
+        ? <AdminDashboard />
+        : <p>Please login first</p>}
+    </>
+  );
+}

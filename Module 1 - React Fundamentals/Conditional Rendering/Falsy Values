@@ -1,0 +1,14 @@
+function App() {
+  return (
+    <ul>
+      <li>false: {false}</li> {/* false: */}
+      <li>undefined: {undefined}</li> {/* undefined: */}
+      <li>null: {null}</li> {/* null: */}
+      <li>Empty string: {''}</li> {/* Empty string: */}
+      <li>Zero: {0}</li> {/* Zero: 0 */}
+      <li>NaN: {NaN}</li> {/* NaN: NaN */}
+    </ul>
+  );
+}
+
+export default App;
