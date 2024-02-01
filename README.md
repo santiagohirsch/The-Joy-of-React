@@ -20,6 +20,14 @@ Once Module 1 is finished, only recommended lessons will be done
 
 #### MODULE 3
 
+- Percentage: ```72%```
+
+- Recommended Percentage: ```100%```
+
+#### MODULE 4
+
 - Percentage: ```0%```
+
+- Recommended Percentage: ```0%```
 
 - Current lesson: ```Introduction```
