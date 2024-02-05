@@ -38,8 +38,8 @@ Once Module 1 is finished, only recommended lessons will be done
 
 #### MODULE 6
 
-- Percentage: ```0%```
+- Percentage: ```43%```
 
-- Recommended Percentage: ```0%```
+- Recommended Percentage: ```54%```
 
-- Current lesson: ```Introduction```
+- Current lesson: ```Next's Metadata API```
