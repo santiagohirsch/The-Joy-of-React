@@ -1,0 +1,20 @@
+{
+  "name": "hello-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "ANALYZE=true npm run build"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^13.4.7",
+    "next": "^13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10",
+    "react-katex": "^3.0.1",
+    "react-latex-next": "^2.2.0"
+  }
+}

@@ -38,8 +38,12 @@ Once Module 1 is finished, only recommended lessons will be done
 
 #### MODULE 6
 
+- Percentage: ```74%```
+
+- Recommended Percentage: ```100%```
+
+#### BONUS MODULE - LAYOUT ANIMATIONS WITH FRAMER MOTION
+
 - Percentage: ```0%```
 
-- Recommended Percentage: ```0%```
-
-- Current lesson: ```Introduction```
+- Current lesson: ```Intro to Framer Motion```
