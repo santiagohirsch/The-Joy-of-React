@@ -44,6 +44,4 @@ Once Module 1 is finished, only recommended lessons will be done
 
 #### BONUS MODULE - LAYOUT ANIMATIONS WITH FRAMER MOTION
 
-- Percentage: ```58%```
-
-- Current lesson: ```Shared Layout Exercises```
+- Percentage: ```100%```
